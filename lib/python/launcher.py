@@ -2,6 +2,9 @@ import subprocess
 import os
 import time
 
+# Launcher launches the Flask Application which runs along with the 
+# Flutter app and connects the python server to the flutter app
+
 def run_flask():
     # Get the current directory of this script
     current_dir = os.path.dirname(os.path.abspath(__file__))
